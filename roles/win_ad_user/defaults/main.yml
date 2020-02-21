@@ -1,0 +1,21 @@
+---
+# Following variables MUST be defined
+
+# send user_info to the role, like this
+#user_info:
+#  groups:
+#    - group_name: dev
+#      group_scope: domainlocal
+#    - group_name: qa
+#      group_scope: domainlocal
+#  users:
+#    - user_name: james
+#      firstname: James
+#      surname: Jockey
+#      password: "redhat@123"
+#      group: dev
+#    - user_name: bill
+#      firstname: Bill
+#      surname: Gates
+#      password: "redhat@123"
+#      group: dev

@@ -1,0 +1,7 @@
+---
+win_ad_install_features:
+  - AD-Domain-Services
+win_ad_install_ad_domain_name: ad1.f79f.example.opentlc.com
+win_ad_install_ad_safe_mode_password: "{{ansible_password}}"
+win_ad_install_ad_admin_user: "admin@{{ ad_domain_name}}"
+win_ad_install_ad_admin_password: "{{ansible_password}}"

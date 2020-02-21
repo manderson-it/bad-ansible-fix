@@ -1,0 +1,13 @@
+---
+- name: Get instances from openstack
+  hosts: localhost
+  gather_facts: false
+  tasks:
+  - name: Get instances from openstack
+    
+
+- import_playbook: enable_repo.yml
+- import_playbook: deploy_postgres.yml
+- import_playbook: deploy_tomcat.yml
+- import_playbook: deploy_apache.yml
+- import_playbook: deploy_haproxy.yml
