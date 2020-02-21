@@ -28,4 +28,4 @@
    - name: Output hosts from in-memory inventory
      debug:
        msg: "I am {{ inventory_hostname }}"
-     loop: "{{ groups['all'] }}
+     loop: "{{ groups['all'] }}"
